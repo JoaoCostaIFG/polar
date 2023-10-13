@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Polar"
+version = "0.0.1"
+authors = [
+  { name="João Costa", email="joaocosta.work@posteo.net" },
+]
+description = "Generate GUIs from scripts"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "tk",
+  "tqdm",
+  "python-dotenv",
+]
+
+[project.urls]
+"Homepage" = "https://example.com"
+"Bug Tracker" = "https://example.com"
