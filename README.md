@@ -36,6 +36,11 @@ def act():
     print(f"{field.name}: {field.value}")
 ```
 
+## Use cases
+
+This is still crude in terms of presentation/responsiveness and accessibility. I use this when doing consulting work in some areas
+where clients want a GUI for something to be implemented in Python.
+
 ## TODO
 
 - ~~Trap for ctrl+c~~
